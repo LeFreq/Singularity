@@ -1,4 +1,4 @@
-This is a project to create a new OS starting from basic principles of OS theory, new architecture knowledge (Zen Code), and to fix the bloatware that all modern OSs have become, no thanks to artificially cheap manufacturing prices and other voodoo.  This project is made also to fix the instabilities that have cropped up from poor or inadequate design choices from legacy systems, including Intel, X, Microsoft, 
+This is a project to create a new OS starting from basic principles of OS theory, new architecture wisdom (see Zen Code on the wiki), and to fix the bloatware that all modern OSs have become (a billion bytes of memory needed? NO), no thanks to artificially cheap manufacturing prices and other voodoo.  This project is made also to fix the instabilities that have cropped up from poor or inadequate design choices from legacy systems, including Intel, X, Microsoft, and Unix.
 
 The other design goal is the formation of a Data Ecosystem.  Recognizing that data is growing faster than coding expertise, this project will experiment with ideals such as "language as an OS", trying new language ideas that facilitate such concepts.
 
@@ -14,7 +14,7 @@ This OS will implement the material in "Gospel of Object-Oriented Programming" a
 
 Ultimately, optimization of processor, motherboard through better architecutre of peripherals, and network
 
-Python for the data ecosystem and C for the OS.
+Python for the data ecosystem and C for the OS.  3d visualization will ultimately be needed to in order to navigate the entire object hierarchy.  It will be sweet.
 
 Multi-processing.  Since the universe solved all the relationship to objects with 4 dimensions, one shouldn't need more than a hypercube architecture is suggested such that each processor relates to four others.  Each peer in the network relates to four others.
 Heterogenous processor environments.  Since the Church-Turing thesis says that all computers essentially implement the same thing, the next design goal is to optimize this minimal functionality necessary to provide maximum (RISC)
@@ -23,6 +23,11 @@ Peripheral flexibility.  Ultimately hardware needs to refine itself on the new o
 
 !MHz
 
+Computation can occur through sophisticated manipulation of power gradients (beit voltage, gravity, springs, cranks on difference engines).  As long as energy is available, computation can be performed.  General-purpose computation requries another layer?
+
+*mach microkernel, four core functions: processing/scheduling, data storage, user i/o, 
+*object storage system, rather than file hierarchies;  8 bit hashes for system startup, and then word-size hashes for storing objects on disk?
+*core utilities that all others are built-from using loosely-coupled, modular components like the original unix design, but all the way to a fully functioning browser or spreadsheet application.
 
 
 
