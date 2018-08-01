@@ -1,21 +1,17 @@
 This is a project to create a new OS starting from basic principles of OS theory, new architecture wisdom (see Zen Code on the wiki), and to fix the bloatware that all modern OSs have become (a billion bytes of memory needed? NO), no thanks to artificially cheap manufacturing prices and other voodoo.  This project is made also to fix the instabilities that have cropped up from poor or inadequate design choices from legacy systems, including Intel, X, Microsoft, and Unix.
 
-The other design goal is the formation of a Data Ecosystem.  Recognizing that data is growing faster than coding expertise, this project will experiment with ideals such as "language as an OS", trying new language ideas that facilitate such concepts.
-
-Multiprocessing will be addressed
-
 Core design goals and philosophies:
 1. A two core relationships to the machine:  data administration and application-user
 2. One can create all the essential functionality of the general-purpose computer by using better architecture to yield better performance and less memory consumption.
 3. All data relates to other data (wikiwikiweb), so make application "mashups" that relate to that data in all the ways users want, much like unix commands + pipes
-4. The network is the computer (Sun Microsystems), so integrate P2P architecture directly in the OS.
-5. 3-d cyberspace visualization, akin to the GlassBeadGame to hold humanity's knowledge.
+4. The network is the computer (Sun Microsystems), so integrate P2P architecture directly in the OS and form a data ecosystem.
+5. 3-d cyberspace visualization. 
 
-This OS will implement the material in "Gospel of Object-Oriented Programming" at wiki.hackerspaces.org.  Those objects are both applications and data objects in a Unified Object Model (you can pronounce it "yum").  Files are objcts, apps are objects, data are objects.  Finally realizing the design goals of OOP:  modularity (re-use), encapsulation (data security), and including object-sharing across networks (P2P).  The internet produces exabytes of data, if the "network is the computer", then one should be able to create a pretty sweet cyberspace portal into it.
+This OS will implement the material in "Gospel of Object-Oriented Programming" at wiki.hackerspaces.org.  Those objects are both applications and data objects in a Unified Object Model (you can pronounce it "yum").  Files are objcts, apps are objects, data are objects.  Finally realizing the design goals of OOP:  modularity (re-use), encapsulation (data security), and including object-sharing across networks (P2P).  The internet produces exabytes of data, if the "network is the computer", then one should be able to create a pretty sweet cyberspace portal into it.  Recognizing that data is growing faster than code, this project will experiment with ideals such as "language as an OS", trying new language ideas that facilitate such concepts.
 
 Ultimately, optimization of processor, motherboard through better architecutre of peripherals, and network
 
-Python for the data ecosystem and C for the OS.  3d visualization will ultimately be needed to in order to navigate the entire object hierarchy.  It will be sweet.
+Python for the data ecosystem (p2p shell) and C for the kernel.  Visual Python for a 3d visualization layer to navigate the entire object hierarchy.
 
 Multi-processing.  Since the universe solved all the relationship to objects with 4 dimensions, one shouldn't need more than a hypercube architecture is suggested such that each processor relates to four others.  Each peer in the network relates to four others.
 Heterogenous processor environments.  Since the Church-Turing thesis says that all computers essentially implement the same thing, the next design goal is to optimize this minimal functionality necessary to provide maximum (RISC)
