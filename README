@@ -1,11 +1,11 @@
 This is a project to create a new OS starting from basic principles of OS theory, new architecture wisdom (see Zen Code on the wiki), and to fix the bloatware that all modern OSs have become (a billion bytes of memory needed to check email? NO), no thanks to artificially cheap manufacturing prices and other voodoo.  This project is made also to fix the instabilities that have cropped up from poor or inadequate design choices from legacy systems, including Intel, X, Microsoft, and Unix.
 
 Core design goals and philosophies:
-1. A two-core relationship to the machine:  data administrator and application user
-2. One can create all the essential functionality of the general-purpose computer by using better hardware and software architecture to yield better performance and less memory consumption.
-3. All data relates to other data (wikiwikiweb), so make application "mashups" that relate to that data in all the ways users want, much like unix commands + pipes.
-4. The network is the computer (Sun Microsystems), so integrate P2P architecture directly in the OS and form a data ecosystem.
-5. 3-d cyberspace visualization to navigate the network`s object hieracrchies.  'Nuff said.
+1. A *two-core relationship* to the machine:  data administrator and application user
+2. One can get better performance by using *better hardware and software arhictecture* (rather than requiring more hardware) without sacrificing essential functionality of a general-purpose computer.
+3. All data relate to other data (wikiwikiweb), so *make everything an object* and make application "mashups" that relate to that data in all the ways users want, much like unix commands did w/pipes.
+4. The *network is the computer* (Sun Microsystems), so integrate P2P architecture directly in the OS and form a data ecosystem for the objects.
+5. *3-d cyberspace visualization* to navigate the network`s object hieracrchies.  'Nuff said.
 
 This OS will implement the material in "Gospel of Object-Oriented Programming" at wiki.hackerspaces.org.  Those objects are both applications and data objects in a Unified Object Model (you can pronounce it "yum").  Files are objcts, apps are objects, data are objects.  Finally realizing the design goals of OOP:  modularity (re-use), encapsulation (data security), and including object-sharing across networks (P2P).  The internet produces exabytes of data, if the "network is the computer", then one should be able to create a pretty sweet cyberspace portal into it.  Recognizing that data is growing faster than code, this project will experiment with ideals such as "language as an OS", trying new language ideas that facilitate such concepts.
 
@@ -14,7 +14,7 @@ Ultimately, optimization of processor, motherboard through better architecutre o
 Python for the data ecosystem (p2p shell) and C for the kernel.  Visual Python for a 3d visualization layer to navigate the entire object hierarchy.
 
 Multi-processing.  Since the universe solved all the relationship to objects with 4 dimensions, one shouldn't need more than a hypercube architecture is suggested such that each processor relates to four others.  Each peer in the network relates to four others.
-Heterogenous processor environments.  Since the Church-Turing thesis says that all computers essentially implement the same thing, the next design goal is to optimize this minimal functionality necessary to provide maximum (RISC)
+Heterogenous processor environments.  Since the Church-Turing thesis says that all computers essentially implement the same thing, the next design goal is to optimize this minimal functionality necessary to provide maximum performance (heat & calcs/sec) (RISC)
 Unified Netowrk Storage.  Sun invented the idea of the network as the computer.  Freenet invented an secure data architecture by propagating important data redudently to peers for security.
 Peripheral flexibility.  Ultimately hardware needs to refine itself on the new object wisdom that everything can relate more purely through simpler, but sophisticated primatives.  Peripherals should be standardizable
 
@@ -26,7 +26,7 @@ Computation can occur through sophisticated manipulation of power gradients (bei
 *object storage system, rather than file hierarchies;  8 bit hashes for system startup, and then word-size hashes for storing objects on disk?
 *core utilities that all others are built-from using loosely-coupled, modular components like the original unix design, but all the way to a fully functioning browser or spreadsheet application.
 
-Fuck me to actually get some files with code in them.
+Fuck me and actually get some files with code in them.
 
 
 
