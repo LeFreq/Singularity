@@ -26,8 +26,7 @@ Computation can occur through sophisticated manipulation of power gradients (bei
 *object storage system, rather than file hierarchies;  8 bit hashes for system startup, and then word-size hashes for storing objects on disk?
 *core utilities that all others are built-from using loosely-coupled, modular components like the original unix design, but all the way to a fully functioning browser or spreadsheet application.
 
-
-
+Fuck me to actually get some files with code in them.
 
 
 
