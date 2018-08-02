@@ -1,6 +1,6 @@
 This is a project to create a new OS starting from basic principles of OS theory, new architecture wisdom (see Zen Code on the wiki), and to fix the bloatware that all modern OSs have become (a billion bytes of memory needed to check email? NO), no thanks to artificially cheap manufacturing prices and other voodoo.  This project is made also to fix the instabilities that have cropped up from poor or inadequate design choices from legacy systems, including Intel, X, Microsoft, and Unix.
 
-The name Position is a spin on POSIX.  The idea of PositionOS is Portability to the MAX, an end-point to those design goals.
+The name Position is a spin on POSIX.  The idea of PositionOS is Portability to the MAX, an end-point to those design goals.  See Samurai Jack (Pangaia wiki) for his contributions to these project ideas.
 
 Core design goals and philosophies:
 1. A *two-core relationship* to the machine:  data administrator and application user (NO ChromeOS)
@@ -19,7 +19,7 @@ Since we're interested in better architecture for solutions rather than *more* h
 *Networking: nervous system
 *Thermal managment:  blood circulation
 
-Since, we advertise a "OS for the singularity", you can see where this might go wrt AI.  The 3d visualization system would be for diagnostics to see the health of the system.
+Since we advertise a "OS for the singularity", you can see where this might go wrt AI.  The 3d visualization system would be for diagnostics to see the health of the system.
 
 These form the core modules of the system.
 
@@ -36,7 +36,7 @@ Computation can occur through sophisticated manipulation of power gradients (bei
 
 *mach microkernel, four core functions: processing/scheduling, data storage, user i/o, networking. A tetrahedral geometry should make it more efficient.
 *object storage system, rather than file hierarchies;  8 bit hashes for system startup, and then word-size hashes for storing objects on disk?
-*core utilities that all others are built-from using loosely-coupled, modular components like the original unix design, but all the way to a fully functioning browser or spreadsheet application.
+*core utilities that all others are built-from using loosely-coupled, modular components like the original unix design, but all the way to a fully functioning browser or spreadsheet application. 
 
 Fuck me and actually get some files with code in them.
 
