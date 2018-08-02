@@ -5,7 +5,7 @@ Core design goals and philosophies:
 2. One can create all the essential functionality of the general-purpose computer by using better hardware and software architecture to yield better performance and less memory consumption.
 3. All data relates to other data (wikiwikiweb), so make application "mashups" that relate to that data in all the ways users want, much like unix commands + pipes.
 4. The network is the computer (Sun Microsystems), so integrate P2P architecture directly in the OS and form a data ecosystem.
-5. 3-d cyberspace visualization. 
+5. 3-d cyberspace visualization to navigate the network`s object hieracrchies. 
 
 This OS will implement the material in "Gospel of Object-Oriented Programming" at wiki.hackerspaces.org.  Those objects are both applications and data objects in a Unified Object Model (you can pronounce it "yum").  Files are objcts, apps are objects, data are objects.  Finally realizing the design goals of OOP:  modularity (re-use), encapsulation (data security), and including object-sharing across networks (P2P).  The internet produces exabytes of data, if the "network is the computer", then one should be able to create a pretty sweet cyberspace portal into it.  Recognizing that data is growing faster than code, this project will experiment with ideals such as "language as an OS", trying new language ideas that facilitate such concepts.
 
