@@ -1,9 +1,9 @@
-This is a project to create a new OS starting from basic principles of OS theory, new architecture wisdom (see Zen Code on the wiki), and to fix the bloatware that all modern OSs have become (a billion bytes of memory needed? NO), no thanks to artificially cheap manufacturing prices and other voodoo.  This project is made also to fix the instabilities that have cropped up from poor or inadequate design choices from legacy systems, including Intel, X, Microsoft, and Unix.
+This is a project to create a new OS starting from basic principles of OS theory, new architecture wisdom (see Zen Code on the wiki), and to fix the bloatware that all modern OSs have become (a billion bytes of memory needed to check email? NO), no thanks to artificially cheap manufacturing prices and other voodoo.  This project is made also to fix the instabilities that have cropped up from poor or inadequate design choices from legacy systems, including Intel, X, Microsoft, and Unix.
 
 Core design goals and philosophies:
-1. A two core relationships to the machine:  data administration and application-user
-2. One can create all the essential functionality of the general-purpose computer by using better architecture to yield better performance and less memory consumption.
-3. All data relates to other data (wikiwikiweb), so make application "mashups" that relate to that data in all the ways users want, much like unix commands + pipes
+1. A two-core relationship to the machine:  data administrator and application user
+2. One can create all the essential functionality of the general-purpose computer by using better hardware and software architecture to yield better performance and less memory consumption.
+3. All data relates to other data (wikiwikiweb), so make application "mashups" that relate to that data in all the ways users want, much like unix commands + pipes.
 4. The network is the computer (Sun Microsystems), so integrate P2P architecture directly in the OS and form a data ecosystem.
 5. 3-d cyberspace visualization. 
 
