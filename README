@@ -1,9 +1,11 @@
 This is a project to create a new OS starting from basic principles of OS theory, new architecture wisdom (see Zen Code on the wiki), and to fix the bloatware that all modern OSs have become (a billion bytes of memory needed to check email? NO), no thanks to artificially cheap manufacturing prices and other voodoo.  This project is made also to fix the instabilities that have cropped up from poor or inadequate design choices from legacy systems, including Intel, X, Microsoft, and Unix.
 
+The name Position is a spin on POSIX.  The idea of PositionOS is Portability to the MAX, an end-point to those design goals.
+
 Core design goals and philosophies:
 1. A *two-core relationship* to the machine:  data administrator and application user (NO ChromeOS)
 2. One can get better performance by using *better hardware and software archictecture* (rather than requiring more hardware) without sacrificing essential functionality of a general-purpose computer. (NO Linux/Microsoft/Apple)
-3. All data relate to other data (wikiwikiweb), so *make everything an object* and make application "mashups" that relate to that data in all the ways users want, much like unix commands did w/pipes. (NO Python, YES GPL)
+3. All data relate to other data (wikiwikiweb), so *make everything an object* and make application "mashups" that relate to that data in all the ways users want, much like unix commands did w/pipes. (NO Python, YES GPL/POSIX)
 4. The *network is the computer* (Sun Microsystems), so integrate P2P architecture directly in the OS and form a data ecosystem and object storage system.  (NO Javascript/file hierarchies)
 5. *3-d cyberspace visualization* to navigate the network`s object 4d hierarchy (YES Pangaia Project).  'Nuff said.
 
