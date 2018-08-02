@@ -11,32 +11,13 @@ Core design goals and philosophies:
 
 This OS will implement the material in "Gospel of Object-Oriented Programming" at wiki.hackerspaces.org.  That is, objects are both applications and data in a Unified Object Model (you can pronounce it "yum").  Files are objects, apps are objects, data are objects.  Finally realizing the design goals of OOP:  modularity (maintainability), encapsulation (data security), and including object-sharing across networks (re-use).  The internet produces exabytes of data, if the "network is the computer", we should have a sweet data ecossytem for it.  Recognizing that data is growing faster than code, this project will experiment with ideals such as "language as an OS", trying new language ideas that facilitate such concepts.
 
-Since we're interested in better architecture for solutions rather than *more* hardware, we can divide a complete system into 6 parts, informed by biomimcry:
-*Security: immune system
-*Storage: bones
-*Processing/Scheduling:  brain
-*User I/O:  sensory-motor system
-*Networking: nervous system
-*Thermal managment:  blood circulation
-
 Since we advertise a "OS for the singularity", you can see where this might go wrt AI.  The 3d visualization system would be for diagnostics to see the health of the system.
 
-These form the core modules of the system.
+In other words, such biomimicry may guide our design choices as we already know that this architecture works exceptionally well.
 
-Python for the data ecosystem (p2p shell) and C for the kernel.  Visual Python for a 3d visualization layer to navigate the entire object hierarchy is the current trajectory. (move to NEWS)
+User I/O, Storage, Networking, and Processing form the core modules of the system.
 
-Multi-processing.  Since the universe solved all the relationship to objects with 4 dimensions, we shouldn't need more either.  Processor architecture (at least for visualization) should use a tetrahedral core.  Each peer should connect to four others creating seomthing akin to a hypercube network architecture.  
-Heterogenous processor environments.  Since the Church-Turing thesis says that all computers essentially implement the same thing, the next design goal is to optimize this minimal functionality necessary to provide maximum performance (finally realizing the goals of RISC architecture)
-Unified Netowrk Storage.  Sun invented the idea of the network as the computer.  Freenet invented an secure data architecture by propagating important data redudently to peers for security.
-Peripheral flexibility.  Ultimately hardware needs to refine itself on the new object wisdom that everything can relate more purely through simpler, but sophisticated primatives (i.e. better architecture).  So, we might go towards a singular model.
-
-!MHz
-
-Computation can occur through sophisticated manipulation of power gradients (beit voltage, gravity, springs, cranks on difference engines).  As long as energy is available, computation can be performed.  General-purpose computation requries another layer?
-
-*mach microkernel, four core functions: processing/scheduling, data storage, user i/o, networking. A tetrahedral geometry should make it more efficient.
-*object storage system, rather than file hierarchies;  8 bit hashes for system startup, and then word-size hashes for storing objects on disk?
-*core utilities that all others are built-from using loosely-coupled, modular components like the original unix design, but all the way to a fully functioning browser or spreadsheet application. 
+Presently, Python for the data ecosystem (p2p shell) and C for the kernel.  Visual Python for a 3d visualization layer to navigate the entire object hierarchy is the current trajectory. (move to NEWS)
 
 Fuck me and actually get some files with code in them.
 
