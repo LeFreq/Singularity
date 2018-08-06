@@ -5,7 +5,7 @@ The name Position is a spin on POSIX.  The idea of PositionOS is Portability to 
 Core design goals and philosophies:
 1. A *two-core relationship* to the machine:  data administrator and application user (NO ChromeOS)
 2. One can get better performance by using *better hardware and software archictecture* (rather than requiring more hardware) without sacrificing essential functionality of a general-purpose computer. (NO Linux/Microsoft/Apple)
-3. All data relate to other data (wikiwikiweb), so *make everything an object* and make application "mashups" that relate to that data in all the ways users want, much like unix commands did w/pipes. (NO Python, YES GPL/POSIX)
+3. All data relate to other data (wikiwikiweb), so *make everything an object* and make application "mashups" that relate to that data in all the ways users want, much like unix commands did w/pipes. (NO Python?, YES GPL/POSIX)
 4. The *network is the computer* (Sun Microsystems), so integrate P2P architecture directly in the OS and form a data ecosystem and object storage system.  (NO Javascript/file hierarchies)
 5. *3-d cyberspace visualization* to navigate the network`s object 4d hierarchy.  'Nuff said.  (YES Pangaia/GlassBeadGame Project)
 
@@ -13,7 +13,7 @@ User I/O, Storage, Networking, and Processing form the high-level architecture o
 
 This OS will implement the material in "Gospel of Object-Oriented Programming" at wiki.hackerspaces.org.  That is, objects are both applications and data in a Unified Object Model (you can pronounce it "yum").  Files are objects, apps are objects, data are objects.  Finally realizing the design goals of OOP:  modularity (maintainability), encapsulation (data security), and including object-sharing across networks (re-use).  The internet produces exabytes of data, if the "network is the computer", we should have a sweet data ecossytem for it.  Recognizing that data is growing faster than code, this project will experiment with ideals such as "language as an OS", trying new language ideas that facilitate such concepts.
 
-Presently, Python for the data ecosystem (p2p shell) and C for the kernel.  Visual Python for a 3d visualization layer to navigate the entire object hierarchy is the current trajectory. (move to NEWS)
+Presently, Python for the data ecosystem (p2p shell) and C for the kernel.  Visual Python for a 3d visualization layer to navigate the entire object hierarchy is the current trajectory.
 
 All files are STUBS.  Fuck me and actually get some files with code in them.
 
