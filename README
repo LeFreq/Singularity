@@ -13,8 +13,6 @@ User I/O, Storage, Networking, and Processing form the high-level architecture o
 
 This OS will implement the material in "Gospel of Object-Oriented Programming" at wiki.hackerspaces.org.  That is, objects are both applications and data in a Unified Object Model (you can pronounce it "yum").  Files are objects, apps are objects, data are objects.  Finally realizing the design goals of OOP:  modularity (maintainability), encapsulation (data security), and including object-sharing across networks (re-use).  The internet produces exabytes of data, if the "network is the computer", we should have a sweet data ecossytem for it.  Recognizing that data is growing faster than code, this project will experiment with ideals such as "language as an OS", trying new language ideas that facilitate such concepts.
 
-Presently, Python for the data ecosystem (p2p shell) and C for the kernel.  Visual Python for a 3d visualization layer to navigate the entire object hierarchy is the current trajectory.
-
 All files are STUBS.  Fuck me and actually get some files with code in them.
 
 
