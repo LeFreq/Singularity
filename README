@@ -3,7 +3,7 @@ This is a project to create a new OS starting from basic principles of OS theory
 The name Position is a spin on POSIX.  The idea of PositionOS is Portability to the MAX, an end-point to those design goals.  See Samurai Jack (Pangaia wiki) for his contributions to these project ideas.
 
 Core design goals and philosophies:
-1. A *two-core relationship* to the machine:  data administrator and application user (NO ChromeOS)
+1. A *two-core relationship* to the machine:  data administrator and application user (NO ChromeOS, NO Surface)
 2. One can get better performance by using *better hardware and software archictecture* (rather than requiring more hardware) without sacrificing essential functionality of a general-purpose computer. (NO Linux/Microsoft/Apple)
 3. All data relate to other data (wikiwikiweb), so *make everything an object* and make application "mashups" that relate to that data in all the ways users want, much like unix commands did w/pipes. (NO Python?, YES GPL/POSIX)
 4. The *network is the computer* (Sun Microsystems), so integrate P2P architecture directly in the OS and form a data ecosystem and object storage system.  (NO Javascript/file hierarchies)
