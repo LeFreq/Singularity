@@ -13,7 +13,7 @@ User I/O, Storage, Networking, and Processing form the high-level components of 
 
 This OS will implement the material in "Gospel of Object-Oriented Programming" at wiki.hackerspaces.org.  That is, objects are both data AND applications in a Unified Object Model (you can pronounce it "yum").  Files are objects, apps are objects, data are objects.  Finally realizing the design goals of OOP:  modularity (maintainability), encapsulation (data security), scalability (compositing), and object reuse (p2p networked re-use).  The internet produces exabytes of data, if the "network is the computer", we should have a data ecossytem for it rather than monolithic silos isolated from other data, kind of like multiprocessing, but for DATA.  Recognizing that data is growing faster than code, this project will experiment with many new ideas such as "LanguageAsAnOS", and "EverythignIsAnObject", trying new language ideas that facilitate such concepts.
 
-As the OS will implement a unified epistemic model of data to knowledge, this project may merge with the GlassBeadGame at sourceforge.net.
+As the OS will implement a unified epistemic model of data to knowledge, this project may merge with the GlassBeadGame at sourceforge.net.  It is called SINGULARITY, after all.
 
 All files are STUBS.  Fuck me and actually get some files with code in them.
 
