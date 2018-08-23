@@ -7,7 +7,7 @@ Core design goals and philosophies:
 2. One can get better performance by using *better hardware and software archictecture* rather than requiring MORE hardware. (-Linux/Microsoft/Apple)
 3. All data relate to other data (wikiwikiweb), so *make everything an object* and make application "mashups" from simpler primitives that relate to that data in all the ways users want, much like unix commands did w/pipes. (-Python, +GPL/POSIX)
 4. The *network is the computer* (Sun Microsystems), so integrate P2P architecture directly in the OS and make a data/app ecosystem.  (-Javascript, -file hierarchies)
-5. *3-d cyberspace visualization* to navigate the 4D hierarchy.  'Nuff said.  (+Pangaia/GlassBeadGame Project)
+5. *3D cyberspace visualization* to navigate the 4D hierarchy.  'Nuff said.  (+Pangaia/GlassBeadGame Project)
 
 User I/O, Storage, Networking, and Processing form the high-level components of the system and the wiki has pages for each.
 
