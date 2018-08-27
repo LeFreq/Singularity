@@ -2,14 +2,14 @@ This is a project for the OS CONVERGENCE:  combining the best practices of DOS/U
 
 The name Position is a spin on POSIX.  The idea of PositionOS is Portability to the MAX, an end-point to those design goals.  See Samurai Jack (Pangaia wiki) for his contributions to these project ideas.
 
-Core design goals and philosophies:
-1. There are *two core relationships* to the machine:  application user and data administrator (-ChromeOS/Surface)
+Core philosophies:
+1. There are *two core relationships* to the machine:  application user and data administrator (-ChromeOS/Surface/Windows10)
 2. One can get better performance by using *better hardware and software archictecture* rather than requiring MORE hardware. (-Linux/Microsoft/Apple)
 3. All data relate to other data (wikiwikiweb), so *make everything an object* and make application "mashups" from simpler primitives that relate to that data in all the ways users want, much like unix commands did w/pipes. (-Python, +GPL/POSIX)
 4. The *network is the computer* (Sun Microsystems), so integrate P2P architecture directly in the OS and make a data/app ecosystem.  (-Javascript, -file hierarchies)
 5. *3D cyberspace visualization* to navigate the 4D hierarchy.  'Nuff said.  (+Pangaia/GlassBeadGame Project)
 
-User I/O, Storage, Networking, and Processing form the high-level components of the system and the wiki has pages for each.
+User I/O, Storage, Networking, and Processing form the high-level components of the system and the wiki has pages for each.  Go there for DesignGoals as well.
 
 This OS will implement the material in "Gospel of Object-Oriented Programming" at wiki.hackerspaces.org.  That is, objects are both data AND applications in a Unified Object Model (you can pronounce it "yum").  Files are objects, apps are objects, data are objects.  Finally realizing the design goals of OOP:  modularity (maintainability), encapsulation (data security), scalability (compositing), and object reuse (p2p networked re-use).  The internet produces exabytes of data, if the "network is the computer", we should have a data ecossytem for it rather than monolithic silos isolated from other data, kind of like multiprocessing, but for DATA.  Recognizing that data is growing faster than code, this project will experiment with many new ideas such as "LanguageAsAnOS", and "EverythignIsAnObject", trying new language ideas that facilitate such concepts.
 
