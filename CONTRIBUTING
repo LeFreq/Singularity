@@ -1,6 +1,6 @@
 SINCE GIT doesn't have an annotate file function to describe the purpose of every file, every file should have a header like so:
 
-#Purpose:  what this file does
+#Purpose:  what this file does (".." means:  should be obvious by file name)
 #Needs: what it might ask from the system
 #Publishes: what it gives to the system
 #Donewhen:  what state tells that this file or function`s purpose is completed
