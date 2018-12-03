@@ -9,6 +9,8 @@ Core philosophies:
 4. The *network is the computer* (Sun Microsystems), so integrate P2P architecture directly in the OS and make a data/app ecosystem.  (-Javascript, -file hierarchies)
 5. *3D cyberspace visualization* to navigate the 4D hierarchy.  'Nuff said.  (+Pangaia/GlassBeadGame Project)
 
+Good architeture can reduce your code base 100-fold.  The actual formula is estimated to be 100*log2(LOC).  That's a huge savings that pays many dividends, like easier maintainance (as the code is architected to embody the problem domain more naturally, rather than artificial CS optimizations).
+
 User I/O, Storage, Networking, and Processing form the high-level components of the system and the wiki has pages for each.  Go there for DesignGoals as well.
 
 This OS will implement the material in "Gospel of Object-Oriented Programming" at wiki.hackerspaces.org.  That is, objects are both data AND applications in a Unified Object Model (you can pronounce it "yum").  Files are objects, apps are objects, data are objects.  Finally realizing the design goals of OOP:  modularity (maintainability), encapsulation (data security), scalability (compositing), and object reuse (p2p networked re-use).  The internet produces exabytes of data, if the "network is the computer", we should have a data ecossytem for it rather than monolithic silos isolated from other data, kind of like multiprocessing, but for DATA.  Recognizing that data is growing faster than code, this project will experiment with many new ideas such as "LanguageAsAnOS", and "EverythignIsAnObject", trying new language ideas that facilitate such concepts.
