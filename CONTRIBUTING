@@ -5,3 +5,4 @@ SINCE GIT doesn't have an annotate file function to describe the purpose of ever
 #Publishes: what it gives to the system
 #Donewhen:  what state tells that this file or function`s purpose is completed
 
+See the Pangaia project wiki (@github) for several coding philosophies and guidelines for architecting code.
