@@ -6,6 +6,8 @@ Position OS is:
 
 a *reconfigurable OS*, a new concept in OS design that allows it to run on any hardware that has a minimal set of abilities for a general-purpose computer.  No more worrying about hardware architecture -- the community only needs to remake the basic primatives and interfaces for the hardware until it fits into the rest of the operating system.  Core functions can be burned into a ASIC (application-specific integrated circuit) and replace your BIOS.  Most OSs are like putting adult overalls on a 2 year-old: clumsy, fitted poorly, inefficient, and not reconfigurable for different environments.
 
+This OS will do for software what the internet did for networking:  make a universally accessible software environment on heterogeneous hardware.
+
 The OS will accelerate every kind of application development, as well as allowing application-sharing and eventually replacing hardware specific apps into a global community of shared application mash-ups.  Universities, companies, individuals, and governments will be able to share re-usable objects made by everyday people to make all data accessible and transferrable across the network.  No more databases, data and application incompatibility problems, or cruft!
 
 The local machine and network are unified, so the whole application stack can be passed around on the network.
@@ -23,6 +25,10 @@ Each nodes sets their name and what data they emit on any query to the nodename 
 *
 
 Applications can be written with very high level concepts.  There are only 8+1 commands to the OS:  EDIT(&), RUN(1/), TEST(#), HELP(?), DIR($), CLONE(%), MSG(@), SET (NAME, HELP ("I'm responsible for handling X"), queryable DATA (personal name, phone number), DIR (who can list the objects on your machine), CLONE (what nodes can clone your data for archive or data security purposes),  ), and GROUP("()").  Everything in the environment is already saved to your hardware with each change.  Backups are handled with your hardware (like RAID5) and the natural ease and redudancy of the network covers you in other cases (cloning).  
+
+If a NODE name was used before, but the IP addr is different, check w/user.  SecuritySentinal object can verify all command requests (like query, clone, and group) to screen if anything suspicious is present (Is a trusted node name on a different IP/Ethernet address?). 
+
+Want to start a network install, boot up the minimal system to get to a command prompt and do a CLONE nodename (how to specify systemfiles only?).  Everything but system files is automatically considered protected.  One could do a GROUP and if your IP or net address is on their allow list, you can start doing queries.
 
 There is one other command possibility:  GROUP.  Group allows you to put all nodes given into a new super-node which you can then query all at once.  The question of adding this function is security.  
 
