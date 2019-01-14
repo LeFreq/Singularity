@@ -1,0 +1,29 @@
+Position OS is a *reconfigurable OS*, a new concept in OS design that allows it to run on any hardware that has a minimal set of abilities for a general-purpose computer.  No more worrying about hardware architecture -- the community only needs to remake the basic primatives and interfaces for the hardware until it fits into the rest of the operating system.  Core functions can be burned into a ASIC (application-specific integrated circuit) and replace your BIOS.  Most OSs are like putting adult overalls on a 2 year-old: clumsy, fitted poorly, inefficient, and not reconfigurable for different environments.
+
+The OS will accelerate every kind of application development, as well as allowing application-sharing and eventually replacing hardware specific apps into a global community of shared application mash-ups.  Universities, companies, individuals, and governments will be able to share re-usable objects made by everyday people to make all data accessible and transferrable across the network.  No more databases, data and application incompatibility problems, or cruft!
+
+The local machine and network are unified, so the whole application stack can be passed around on the network.
+There are no external logins, you decide what you publish to the outer world and how far.
+Data and apps are completely modular, there are no data bases.  Instead you have basic objects (like FullName) composited into larger ones (like Student(FullName, HomeAddress, Curriculum)).
+Apps and objects are united, all objects are apps and all apps are objects,
+All OSs become part of the CONVERGENCE.
+
+There are only three primary ways of relating to the machine:  application user, data administrator, object technician (formerly "programmer").  Bootup files are simple:  you can boot to the OS command line or configure what application you want to run upon boot.  
+
+Each nodes sets their name and what data they emit on any query to the nodename (?Node).  Nodes are objects to any given peer and can be treated nearly like any other object:  queried, cloned (for data backup), dir'd, help
+
+*OOP
+*hardware abstraction
+*
+
+Applications can be written with very high level concepts.  There are only eight commands to the OS:  EDIT(&), RUN(1/), TEST(#), HELP(?), DIR($), CLONE(%), MSG(@), and SET (NAME, HELP ("I'm responsible for handling X"), queryable DATA (personal contact data, ??), DIR (who can ist of objects you have), CLONE (what nodes can clone your data for archive or data security purposes),  ).  Everything in the environment is already saved to your hardware with each change.  Backups are handled with your hardware (like RAID5) and the natural ease and redudancy of the network covers you in other cases (cloning).  
+
+There is one other command possibility:  GROUP.  Group allows you to put all nodes given into a new super-node which you can then query all at once.  The question of adding this function is security.
+
+All objects are also applications, so you can see what they do easily.  Help and run will tell you easily.  You can also query each app/object to check internal state while running.
+
+App
+
+
+
+Existing apps can be modified and customized by editing them.  The level of granularity is about the level of the Unix command line.  So you'll be modifying apps by editing shell-level code.
