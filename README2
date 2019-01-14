@@ -22,7 +22,7 @@ Each nodes sets their name and what data they emit on any query to the nodename 
 *hardware abstraction
 *
 
-Applications can be written with very high level concepts.  There are only eight commands to the OS:  EDIT(&), RUN(1/), TEST(#), HELP(?), DIR($), CLONE(%), MSG(@), and SET (NAME, HELP ("I'm responsible for handling X"), queryable DATA (personal name, phone number), DIR (who can list the objects on your machine), CLONE (what nodes can clone your data for archive or data security purposes),  ).  Everything in the environment is already saved to your hardware with each change.  Backups are handled with your hardware (like RAID5) and the natural ease and redudancy of the network covers you in other cases (cloning).  
+Applications can be written with very high level concepts.  There are only 8+1 commands to the OS:  EDIT(&), RUN(1/), TEST(#), HELP(?), DIR($), CLONE(%), MSG(@), SET (NAME, HELP ("I'm responsible for handling X"), queryable DATA (personal name, phone number), DIR (who can list the objects on your machine), CLONE (what nodes can clone your data for archive or data security purposes),  ), and GROUP("()").  Everything in the environment is already saved to your hardware with each change.  Backups are handled with your hardware (like RAID5) and the natural ease and redudancy of the network covers you in other cases (cloning).  
 
 There is one other command possibility:  GROUP.  Group allows you to put all nodes given into a new super-node which you can then query all at once.  The question of adding this function is security.  
 
@@ -34,6 +34,6 @@ All objects are also applications, so you can see what they do easily.  Help and
 
 App
 
-
+All variables are saved to the local machine when you return to the OS prompt. At startup, user can select what variables to keep, loading them into main memory as if you never turned off the machine.
 
 Existing apps can be modified and customized by editing them.  The level of granularity is about the level of the Unix command line.  So you'll be modifying apps by editing shell-level code.
