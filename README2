@@ -1,4 +1,10 @@
-Position OS is a *reconfigurable OS*, a new concept in OS design that allows it to run on any hardware that has a minimal set of abilities for a general-purpose computer.  No more worrying about hardware architecture -- the community only needs to remake the basic primatives and interfaces for the hardware until it fits into the rest of the operating system.  Core functions can be burned into a ASIC (application-specific integrated circuit) and replace your BIOS.  Most OSs are like putting adult overalls on a 2 year-old: clumsy, fitted poorly, inefficient, and not reconfigurable for different environments.
+Position OS is:
+* Reconfigurable
+* Object-Oriented
+* P2P
+* Community-oriented (all are considered peers)
+
+a *reconfigurable OS*, a new concept in OS design that allows it to run on any hardware that has a minimal set of abilities for a general-purpose computer.  No more worrying about hardware architecture -- the community only needs to remake the basic primatives and interfaces for the hardware until it fits into the rest of the operating system.  Core functions can be burned into a ASIC (application-specific integrated circuit) and replace your BIOS.  Most OSs are like putting adult overalls on a 2 year-old: clumsy, fitted poorly, inefficient, and not reconfigurable for different environments.
 
 The OS will accelerate every kind of application development, as well as allowing application-sharing and eventually replacing hardware specific apps into a global community of shared application mash-ups.  Universities, companies, individuals, and governments will be able to share re-usable objects made by everyday people to make all data accessible and transferrable across the network.  No more databases, data and application incompatibility problems, or cruft!
 
@@ -16,9 +22,13 @@ Each nodes sets their name and what data they emit on any query to the nodename 
 *hardware abstraction
 *
 
-Applications can be written with very high level concepts.  There are only eight commands to the OS:  EDIT(&), RUN(1/), TEST(#), HELP(?), DIR($), CLONE(%), MSG(@), and SET (NAME, HELP ("I'm responsible for handling X"), queryable DATA (personal contact data, ??), DIR (who can ist of objects you have), CLONE (what nodes can clone your data for archive or data security purposes),  ).  Everything in the environment is already saved to your hardware with each change.  Backups are handled with your hardware (like RAID5) and the natural ease and redudancy of the network covers you in other cases (cloning).  
+Applications can be written with very high level concepts.  There are only eight commands to the OS:  EDIT(&), RUN(1/), TEST(#), HELP(?), DIR($), CLONE(%), MSG(@), and SET (NAME, HELP ("I'm responsible for handling X"), queryable DATA (personal name, phone number), DIR (who can list the objects on your machine), CLONE (what nodes can clone your data for archive or data security purposes),  ).  Everything in the environment is already saved to your hardware with each change.  Backups are handled with your hardware (like RAID5) and the natural ease and redudancy of the network covers you in other cases (cloning).  
 
-There is one other command possibility:  GROUP.  Group allows you to put all nodes given into a new super-node which you can then query all at once.  The question of adding this function is security.
+There is one other command possibility:  GROUP.  Group allows you to put all nodes given into a new super-node which you can then query all at once.  The question of adding this function is security.  
+
+The issue of supernodes is still under development.  Either a GROUP command to make all nodes act as a virtual local node and implementing a tree-like security model for different groups of data or using the CLONE to just copy the data and query the data locally.  There is no sure way to answer this question theoretically, so probably both will be implemented.
+
+SuperNode must give their authentication credentials  Each NODE can set any number of security levels.  Since such security levels are neither flat (like Unix) nor linear (security level 1,2,3).  Each node can set the passphrase for accessing their data at any restricted level.  This passphrase list is the essential thing to keep secret.
 
 All objects are also applications, so you can see what they do easily.  Help and run will tell you easily.  You can also query each app/object to check internal state while running.
 
