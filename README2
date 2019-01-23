@@ -2,7 +2,7 @@ Position OS is:
 * Reconfigurable
 * Object-Oriented
 * P2P
-* Community-oriented (all are considered peers)
+* Community-oriented (all nodes are considered peers at the application layer)
 
 a *reconfigurable OS*, marrying databased with OOP, a new concept in OS design that allows it to run on any hardware that has a minimal set of abilities for a general-purpose computer.  No more worrying about hardware architecture -- the community only needs to remake the basic primatives and interfaces for the hardware until it fits into the rest of the operating system.  Core functions can be burned into a ASIC (application-specific integrated circuit) and replace your BIOS.  Most OSs are like putting adult overalls on a 2 year-old: clumsy, fitted poorly, inefficient, and not reconfigurable for different environments.
 
@@ -45,4 +45,4 @@ App
 group
 All variables are saved to the local machine when you return to the OS prompt. At startup, user can select what variables to keep, loading them into main memory as if you never turned off the machine.
 
-Existing apps can be modified and customized by editing them.  The level of granularity is about the level of the Unix command line.  So you'll be modifying apps by editing shell-level code.
+Existing apps can be modified and customized by editing them.  The level of granularity is about the level of the Unix command line.  So you'll be editing and customizing apps by editing shell-level code.
