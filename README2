@@ -18,6 +18,8 @@ All OSs become part of the CONVERGENCE.
 
 There are only three primary ways of relating to the machine:  application user, data administrator, object technician (formerly "programmer").  Bootup files are simple:  you can boot to the OS command line or configure what application you want to run upon boot.  
 
+Storage is more sparse and distributed to the stakeholders, so is equally held by objects (code/structure) and data.  But most code is just clones from other objects, so the amount of storage is significantly less that present OSs.
+
 Each nodes sets their name and what data they emit on any query to the nodename (?Node).  Nodes are objects to any given peer and can be treated nearly like any other object:  queried, cloned (for data backup), dir'd, help
 
 *OOP
