@@ -26,7 +26,7 @@ Each nodes sets their name and what data they emit on any query to the nodename 
 *hardware abstraction
 *
 
-Applications can be written with very high level concepts.  There are only 8+1 commands to the OS:  EDIT(&), RUN(1/), TEST(#), HELP(?), DIR($), CLONE(%), MSG(@), GROUP("()"), and SET (NAME, HELP ("I'm responsible for handling X"), queryable DATA (personal name, phone number, total bytes stored, total objects, highest level object, average level, etc.), DIR (who can list the objects on your machine), CLONE (what nodes can clone your data for archive or data security purposes),  TEST (who can test your objects)).  Everything in the environment is already saved to your hardware with each change.  Backups are handled with your hardware (like RAID5) and the natural ease and redudancy of the network covers you in other cases (cloning).  
+Applications can be written with very high level concepts.  There are only 8+1 commands to the OS:  EDIT(&), RUN(1/), TEST(!), HELP(?), DIR($), CLONE(%), MSG(@), GROUP("()"), and SET (#) (NAME, HELP ("I'm responsible for handling X"), queryable DATA (personal name, phone number, total bytes stored, total objects, highest level object, average level, etc.), DIR (who can list the objects on your machine), CLONE (what nodes can clone your data for archive or data security purposes),  TEST (who can test your objects)).  Everything in the environment is already saved to your hardware with each change.  Backups are handled with your hardware (like RAID5) and the natural ease and redudancy of the network covers you in other cases (cloning).  
 
 Memory space can hold any number of groups that you've defined, such that you can MSG the group and everyone gets a notice in their screen.
 
