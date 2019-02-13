@@ -1,6 +1,6 @@
 This is a project for the OS CONVERGENCE:  combining the best practices of DOS/Unix/VMS/BeOS/Windows.  It will create a new OS starting from basic principles of OS theory, modular and object-oriented, and at the bare metal (the CPU architecture).  It comes out of frustration of the bloatware that all modern OSs have become and new wisdom about system architecture via epistemology (see Zen Code on the Pangaia wiki).  With no thanks to artificially cheap manufacturing prices and other voodoo, this project is made also to fix the instabilities that have cropped up from poor or inadequate design choices from legacy systems, including Intel, X, Microsoft, and Unix.  But we're not just going to scratch an itch, we're going to ADVANCE Computer Science.  Woot!
 
-The name Position is a spin on POSIX.  The idea of PositionOS is Portability to the MAX, an end-point to those design goals.  See Samurai Jack (Pangaia wiki) for his contributions to these project ideas.
+The name Position is a spin on POSIX.  The idea of PositionOS is Portability to the MAX, an end-point to those design goals.  See Samurai Jack (Pangaia wiki) for his contributions to these project ideas.  It is also architected like the human mind:  built from simple primitives towards higher levels of abstraction.
 
 Core philosophies:
 1. There are *two core relationships* to the machine:  application user and system administrator (-ChromeOS/Surface/Windows10)
