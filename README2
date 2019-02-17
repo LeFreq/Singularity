@@ -26,7 +26,7 @@ Each nodes sets their name and what data they emit on any query to the nodename 
 *hardware abstraction
 *
 
-Applications can be written with very high level concepts.  There are only 8+1 commands to the OS:  EDIT(&), RUN(1/), TEST(!), HELP(?), DIR($), CLONE(%), MSG(@), GROUP("()"), and SET (#) (NAME, HELP ("I'm responsible for handling X"), queryable DATA (personal name, phone number, total bytes stored, total objects, highest level object, average level, etc.), DIR (who can list the objects on your machine), CLONE (what nodes can clone your data for archive or data security purposes),  TEST (who can test your objects)).  Everything in the environment is already saved to your hardware with each change.  Backups are handled with your hardware (like RAID5) and the natural ease and redudancy of the network covers you in other cases (cloning).  
+Applications can be written with very high level concepts.  There are only 8+1 commands to the OS:  EDIT(&), RUN(1/), TEST(!), HELP(?), DIR($), CLONE(%), MSG(@), GROUP("()"), and SET (#) (NAME, HELP ("I'm responsible for handling X"), queryable DATA (personal name, phone number, total bytes stored, total objects, highest level object, average level, etc.), DIR (who can list the objects on your machine), CLONE (what to do if someone wants to clone your objects, like add GROUP),  TEST (who can test your objects)), and DEL (remove an object from the machine).  Everything in the environment is already saved to your hardware with each change.  Backups are handled with your hardware (like RAID5) and the natural ease and redudancy of the network covers you in other cases (cloning).  
 
 Memory space can hold any number of groups that you've defined, such that you can MSG the group and everyone gets a notice in their screen.
 
@@ -35,13 +35,15 @@ If a NODE name was used before, but the IP addr is different, check w/user.  Sec
 
 Want to start a network install, boot up the minimal system to get to a command prompt and do a CLONE nodename (how to specify systemfiles only?).  Everything but system files is automatically considered protected.  One could do a GROUP and if your IP or net address is on their allow list, you can start doing queries.
 
-There is one other command possibility:  GROUP.  Group allows you to put all nodes given into a new super-node which you can then query all at once.  The question of adding this function is security.  
+There is one other command possibility:  GROUP.  Group allows you to put all nodes given into a new super-node which you can then query all at once.  The question of adding this function is security.  DEL will notify other NODES who created the object to unGROUP them.  CLONE Object ToNode.
 
 The issue of supernodes is still under development.  Either a GROUP command to make all nodes act as a virtual local node and implementing a tree-like security model for different groups of data or using the CLONE to just copy the data and query the data locally.  There is no sure way to answer this question theoretically, so probably both will be implemented.
 
 SuperNode must give their authentication credentials  Each NODE can set any number of security levels.  Since such security levels are neither flat (like Unix) nor linear (security level 1,2,3).  Each node can set the passphrase for accessing their data at any restricted level.  This passphrase list is the essential thing to keep secret.
 
 All objects are also applications, so you can see what they do easily.  Help and run will tell you easily.  You can also query each app/object to check internal state while running.
+
+All objects contain metadata, including paypal_ID, so that creators can be paid.  Creators can group all users who use objects from their machine and send MSGs when they need money.  A DEL command
 
 App
 group
