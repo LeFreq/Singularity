@@ -45,6 +45,11 @@ All objects are also applications, so you can see what they do easily.  Help and
 
 All objects contain metadata, including paypal_ID, so that creators can be paid.  Creators can group all users who use objects from their machine and send MSGs when they need money.  A DEL command
 
+DIR:
+
+  List objects starting from some branch or list nodes.  Two different home symbols, representing a node ":" or an object "\".
+
+
 App
 group
 All variables are saved to the local machine when you return to the OS prompt. At startup, user can select what variables to keep, loading them into main memory as if you never turned off the machine.
