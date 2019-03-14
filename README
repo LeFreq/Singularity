@@ -3,7 +3,7 @@ This is a project for the OS CONVERGENCE:  combining the best practices of DOS/U
 The name Position is a spin on POSIX.  The idea of PositionOS is Portability to the MAX, an end-point to those design goals.  See Samurai Jack (Pangaia wiki) for his contributions to these project ideas.  It is also architected like the human mind:  built from simple primitives towards higher levels of abstraction.
 
 Core philosophies:
-1. There are *two core relationships* to the machine:  application user and system administrator (-ChromeOS/Surface/Windows10)
+1. There are *two core relationships* to the machine as far as software and the OS are concerned:  application user and data administrator, much like CODE vs. DATA.  Hiding this from the user makes either users or developers dumb. (-ChromeOS/Surface/Windows10)
 2. One can get better performance by using *better hardware and software archictecture* rather than requiring MORE hardware. (-Linux/Microsoft/Apple)
 3. All data relate to other data (wikiwikiweb), so *make everything an object* and make application "mashups" from simpler primitives that relate to that data in all the ways users want, much like unix commands did w/pipes. (-Python, +GPL/POSIX)
 4. The *network is the computer* (Sun Microsystems), so integrate P2P architecture directly in the OS and make a data/app ecosystem.  (-Javascript, -file hierarchies)
