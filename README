@@ -10,7 +10,7 @@ Core philosophies:
 5.  All objects exist in a UnifiedDataModel, so all apps draw on these objects re-useing them in many ways.  Each app primitive is inspectable.  There are no proprietary apps.  (+GPL)
 6. *3D cyberspace visualization* to navigate the 4D hierarchy.  'Nuff said.  (+Pangaia/GlassBeadGame Project)
 
-Good architeture can reduce your code base 100-fold.  The actual formula is estimated to be 100*log2(LOC).  That's a huge savings that pays many dividends, like easier maintainance (as the code is architected to embody the problem domain more naturally, rather than artificial CS optimizations).
+Good architeture can reduce your code base 100-fold.  The actual formula is some asymptote to 100*log2(LOC).  That's a huge savings that pays many dividends, like easier maintainance (as the code is architected to embody the problem domain more naturally, rather than artificial CS optimizations).
 
 User I/O, Storage, Networking, and Processing form the high-level components of the system and the wiki has pages for each.  Go there for DesignGoals as well.
 
