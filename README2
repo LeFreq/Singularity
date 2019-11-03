@@ -1,30 +1,29 @@
 Position OS is:
-* Reconfigurable
-* Object-Oriented
-* P2P
+* Reconfigurable:  The hardware abstraction layer can be re-factored by sophisticated users.
+* Object-Oriented:  Everything is an object.  Every object is an application.
+* P2P:  A ad hoc network of trusted peers.
 * Community-oriented (all nodes are considered peers at the application layer)
 
-a *reconfigurable OS*, marrying databased with OOP, a new concept in OS design that allows it to run on any hardware that has a minimal set of abilities for a general-purpose computer.  No more worrying about hardware architecture -- the community only needs to remake the basic primatives and interfaces for the hardware until it fits into the rest of the operating system.  Core functions can be burned into a ASIC (application-specific integrated circuit) and replace your BIOS.  Most OSs are like putting adult overalls on a 2 year-old: clumsy, fitted poorly, inefficient, and not reconfigurable for different environments.
+a *reconfigurable OS*, marrying databases with OOP, a new concept in OS design that allows it to run on any hardware that has a minimal set of abilities for a general-purpose computer.  No more worrying about hardware architecture -- the community only needs to remake the basic primatives and interfaces for the hardware until it fits into the rest of the operating system.  Core functions can be burned into a ASIC (application-specific integrated circuit) and replace your BIOS.  Most OSs are like putting adult overalls on a 2 year-old: clumsy, fitted poorly, inefficient, and not reconfigurable for different environments.
 
 This OS will do for software what the internet did for networking:  make a universally accessible software environment on heterogeneous hardware.
 
-The OS will accelerate every kind of application development, as well as allowing application-sharing and eventually replacing hardware specific apps into a global community of shared application mash-ups.  Universities, companies, individuals, and governments will be able to share re-usable objects made by everyday people to make all data accessible and transferrable across the network.  No more databases (internally the data is still potentially stored as tab (and CR)-delimited records), data and application incompatibility problems, or cruft!
+The OS will accelerate every kind of application development, as well as allowing application-sharing and eventually replacing hardware-specific apps into a global community of shared, application mash-ups.  Universities, companies, individuals, and governments will be able to share re-usable objects made by everyday people to make all data accessible and transferrable across the network.  No more databases, data and application incompatibility problems, or cruft!
 
 The local machine and network are unified, so the whole application stack can be passed around on the network.
-There are no external logins, you decide what you publish to the outer world and how far.
+There are no external logins, you decide what you publish to the outer world and how far.  It's a single-user OS.
 Data and apps are completely modular, there are no data bases.  Instead you have basic objects (like FullName) composited into larger ones (like Student(FullName, HomeAddress, Curriculum)).
 Apps and objects are united, all objects are apps and all apps are objects,
 All OSs become part of the CONVERGENCE.
 
 There are only three primary ways of relating to the machine:  application user, data administrator, object technician (formerly "programmer").  Bootup files are simple:  you can boot to the OS command line or configure what application you want to run upon boot.  
 
-Storage is more sparse and distributed to the stakeholders, so is equally held by objects (code/structure) and data.  But most code is just clones from other objects, so the amount of storage is significantly less that present OSs.
+Storage is more sparse and distributed to the stakeholders (other peers), so is equally held by objects (code/structure) and data.  But most code is just clones from other objects, so the amount of storage is significantly less that present OSs.
 
 Each nodes sets their name and what data they emit on any query to the nodename (?Node).  Nodes are objects to any given peer and can be treated nearly like any other object:  queried, cloned (for data backup), dir'd, help
 
 *OOP
 *hardware abstraction
-*
 
 Applications can be written with very high level concepts.  There are only 8+1 commands to the OS:  EDIT(&), RUN(1/), TEST(!), HELP(?), DIR($), CLONE(%), MSG(@), GROUP("()"), and SET (#) (NAME, HELP ("I'm responsible for handling X"), queryable DATA (personal name, phone number, total bytes stored, total objects, highest level object, average level, etc.), DIR (who can list the objects on your machine), CLONE (what to do if someone wants to clone your objects, like add GROUP),  TEST (who can test your objects)), and DEL (remove an object from the machine).  Everything in the environment is already saved to your hardware with each change.  Backups are handled with your hardware (like RAID5) and the natural ease and redudancy of the network covers you in other cases (cloning).  
 
