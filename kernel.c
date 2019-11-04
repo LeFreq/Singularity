@@ -10,36 +10,8 @@
 //This is an experimental, temporary attempt
 function Parser(int DEBUG, int clear_screen);  //present user prompt when finished
 function HardwareTable();
-
-//typedefs of generic hardware motherboards in case user doesn't have one.
-
-IBMPCv1_motherboard* HardwareTable(){
-
-}
-typedef 
-struct {
-    //!!These are all guesses, not to be used in production!!
-    0x0000 flash_BIOS_memory;
-    0x1000 RAM
-    0x02df COM1;
-    0x03df COM2;
-    0x0800 video_RAM;
-    0x0100-0x1FF harddrive_memory_mapped_io;
-} IBMPCv1_motherboard;
-
-struct {
-} IBMPS_2v2_motherboard_addresses;
-
-typedef
-    
-    0x0100 mouse; \\2-byte words
    
-*char array; //"array" is a variable that holds a pointer.
-
-//function headers
-MOUNSE_STATE laser(), function3(int x,y), getstate(FILE_HANDLE mdevice); 
-void laser*; //pointer to function laser
-*char arrayfunction(TLIST)
+char* array; //"array" is a variable that holds a pointer.
 
 //first function comment
 terminate_status kernel() {
