@@ -1,22 +1,17 @@
-/*Purpose: starts the core operating system (previous to any user commands)
-Version:  for ANSI C0x01
-Donewhen: user requests
-Exit_status:
+/* Purpose: starts the core operating system (previous to any user commands)
+** Version:  for ANSI C0x01
+** Donewhen: user requests
+** Exit_status:
 "all apps shut down normally"
 "all hardware shutdown normally"
-"rebooting" */
+"rebooting" 
+*/
 
 //This is an experimental, temporary attempt
 function Parser(int DEBUG, int clear_screen);  //present user prompt when finished
 function HardwareTable();
-/* MOVE THIS
-//memory mapped i/o addresses and definitions
-//###python FIXMEs
-//## python WARNs
-//# python comments
-*/
 
-//List of generic hardware motherboards
+//typedefs of generic hardware motherboards in case user doesn't have one.
 
 IBMPCv1_motherboard* HardwareTable(){
 
