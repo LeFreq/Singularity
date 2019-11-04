@@ -6,3 +6,10 @@ SINCE GIT doesn't have an annotate file function to describe the purpose of ever
 #Donewhen:  what state tells that this file or function`s purpose is completed
 
 See the Pangaia project wiki (@github) for several coding philosophies and guidelines for architecting code.
+
+Otherwise:
+For code comments, user something like:
+### FIXMEs (add two slashes (//) for C)
+## WARNs
+# regular INFO/comments
+
