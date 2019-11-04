@@ -7,18 +7,18 @@
 "rebooting" 
 */
 
+//bring in generic hardware configurations in case user doesn't supply one.
+#include boot.h 
+
 //This is an experimental, temporary attempt
 function Parser(int DEBUG, int clear_screen);  //present user prompt when finished
 function HardwareTable();
-   
-char* array; //"array" is a variable that holds a pointer.
 
-//first function comment
-terminate_status kernel() {
-//all core hardware ready and ready to respond to user requests
-    var=0;
-    return b;
-};
+void LoadHardwareData {
+      if (bootable))//check boot device for hardware file.
+      else 
+         return NULL;
+}
 
 void main() {
     LoadHardwareData;  //will scan bootable devices
