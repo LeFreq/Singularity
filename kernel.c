@@ -7,11 +7,20 @@ Exit_status:
 "rebooting" */
 
 //This is an experimental, temporary attempt
-
+function Parser(int DEBUG, int clear_screen);  //present user prompt when finished
+function HardwareTable();
+/* MOVE THIS
 //memory mapped i/o addresses and definitions
 //###python FIXMEs
 //## python WARNs
 //# python comments
+*/
+
+//List of generic hardware motherboards
+
+IBMPCv1_motherboard* HardwareTable(){
+
+}
 typedef 
 struct {
     //!!These are all guesses, not to be used in production!!
@@ -44,25 +53,14 @@ terminate_status kernel() {
     return b;
 };
 
-
-//function definition
-int function1() {
-    function2();
-}
-        
-int function2() {
-    function1();
-}
-
-/*comment for the following function*/
-int function2(int x,y; char ch) {
-    this=that
-};
-
 void main() {
-    int posx, posy;
+    LoadHardwareData;  //will scan bootable devices
+    CreateHardwareTable;  //create hardware table from hardware data
+    RunSystemObjects;  //starts desired scheduler and other objects
+    RunUserObjects;    //User-defined customizations
+    EstablishParser;   //Set-up interface to user
+    PresentingToUser;  //hello world
     
-    function2(posx, posy);
-    
+    Shutdown;  //shutdown all objects and halt system.
 }
 
