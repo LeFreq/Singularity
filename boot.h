@@ -1,3 +1,13 @@
+//BIOS.  The BIOS should hand control over to the kernel after POST. 
+//Purpose:  to poweron hardware and inform OS of system status and hardware, A BIOS
+//Needs:  valid power supply
+//Publishes: a dedicated memory array (address #0000????) with the system data:
+//*storage: memsize, storage arry size, # of storage devices, r/wability, bootdisk memory location (cluster-sized chunks)
+//*processing:
+//*networking:  networkcard memory location (protocol/datagram sizd)
+//*user i/o: 
+//Donewhen:  hardware RDY, dedicated memory filled, first kernel instruction loaded.
+
 /* List of hardware configurations for interrupt table data
 Contains typedefs of different hardware systems and 
 their memory addresses.  In case BIOS routines are unavailable.
@@ -7,9 +17,6 @@ their memory addresses.  In case BIOS routines are unavailable.
 
 //typedefs of generic hardware motherboards in case user doesn't have one.
 
-IBMPCv1_motherboard* HardwareTable(){
-
-}
 typedef 
 struct {
     //!!These are all guesses, not to be used in production!!
@@ -21,6 +28,10 @@ struct {
     0x0100-0x1FF harddrive_memory_mapped_io;
 } IBMPCv1_motherboard;
 
+IBMPCv1_motherboard* HardwareTable
+
+
+
 struct {
 } IBMPS_2v2_motherboard_addresses;
 
@@ -31,16 +42,5 @@ typedef
 MOUNSE_STATE laser(), function3(int x,y), getstate(FILE_HANDLE mdevice); 
 void laser*; //pointer to function laser
 *char arrayfunction(TLIST)
-
-
-BOOT
-#Purpose:  to poweron hardware and inform OS of system status and hardware
-#Needs:  valid power supply
-#Publishes: a dedicated memory array (address #0000????) with the system data:
-*storage: memsize, storage arry size, # of storage devices, r/wability, bootdisk memory location (cluster-sized chunks)
-*processing:
-*networking:  networkcard memory location (protocol/datagram sizd)
-*user i/o: 
-#Donewhen:  hardware RDY, dedicated memory filled, first kernel instruction loaded.
 
 
