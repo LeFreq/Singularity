@@ -9,7 +9,7 @@ Follow Zen Code guidelines.  See the Pangaia project wiki (@github) for several 
 
 Otherwise:
 For code comments, user something like:
-### FIXMEs (add two slashes (//) for C)
+### FIXMEs (add more slashes (////) for C)
 ## WARNs
 # regular INFO/comments
 
