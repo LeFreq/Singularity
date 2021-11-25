@@ -1,6 +1,4 @@
-IT SOUNDS LIKE HYPERBOLE, YET .... it is not.  IT IS A SINGULARITY.  Arriving from the Matrix, look for the wiki pages...
-
-UPDATE:  With some small tweaks, the design goals of Singularity can be implemented in UNIX using shell operators as a universal API.  See the Gospel of Data Ecologies on the wiki.
+Still jacking into the net with your browser and your old OS?  Are you choking your clockrate to maximize your mainline?  Maybe spilling your call stack tryna find the path to Enlightenment?  Seek no more.
 
 This is a project for the OS and lanugage CONVERGENCE, where they figure out they're all trying to accomplish the same thing.  See also the googlegroup: programming-topics.  Turns out there's not that many significantly different ways to do that on a single-processor system.  So, we're going to optimize it and do it perfectly with a language we'll call Prime (even though it may start as Python or some such available language).
 
@@ -32,11 +30,11 @@ This OS will implement the material in "Gospel of Object-Oriented Programming" a
 
 As the OS will implement a unified epistemic model of data to knowledge, this project may merge with the GlassBeadGame at sourceforge.net.  It is called SINGULARITY, after all.  
 
+UPDATE:  With some small tweaks, the design goals of Singularity can be implemented in UNIX using shell operators as a universal API.  See the Gospel of Data Ecologies on the wiki.
+
 All files are STUBS.  Contact me and actually get some files with code in them.  Discuss at programming-topics@googlegroups.com
 
-Keywords: Blue Abyss, Reconfigurable OS, ...
-
-.
+Keywords: Blue Abyss, Reconfigurable OS, Peer-to-peer...
 
 
 
