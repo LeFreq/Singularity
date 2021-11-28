@@ -1,5 +1,26 @@
 Still jacking into the net with your browser and your old OS?  Choking yer clockrate to maximize your mainline?  Maybe spilling your call stack tryna find the path to Enlightenment?  Seek no more.
 
+This project is going to make the first ever peer-2-peer operating system.  That means, that networking is built-in, but instead of everyone's PC being seen as a client asking for server data, it's an equal peer to all other nodes to the system -- a publisher of content, apps, and a part of the system's data security, storing data for others so that all data is available and reproduced as needed and as popularity requires it (much like FreeNET).
+
+This operating system will be very small, yet very functional and very fast.  It achieves this through radical computer and data science that hasn't been integrated much into commercial or even free OSs.  And it probably won't be:  it's unpublished!  This new science comes from biomimicry and mimics how the soul itself stores and uses data in cells.  Also, new software architecture that makes data-flows more natural, much like good bulding architecture makes the flow of people mroe efficient.   A typical kernel might only be 10k in size (a 100th of the Linux kernel), mearly invisible.  All files are kept contiguous so that "pointer" arithmetic can be used on data and safe assumptions can be made.  This can be done because most files in the OS are small, composed of many loosely-coupled, modular objects -- except raw data sources which can be treated specially, stored like a RAM-disk.
+
+This data ecosystem forms a new way to relate to the Internet and a new way to relate to the power of the personal computer.  Every app is a re-useable object (OOP), much like Unix created shell utilities from a small set of commmands.  Since one of the major powers of the network is communicating with people, a peer-2-peer messaging system is built-in, allowing ad hoc group formation and messages to be passed to others without alot of overhead.  These messages become part of a meritocracy and peer nodes with expertise get tracked and rewarded.
+
+Speaking of rewards, object creators can get paid every time their objects are instantiated and run.  Every object contains meta-data that allows a small fee to be sent to the object creator`s paypal (or some such) account.  So the operating system has app-creation incentives built-in.
+
+These re-inventions of social and applicaiton dynamics re-invent the operating system.  No more traditional, monolithic apps whose files live in their own mini universe.  Everything is interconnected, man.  The security model hasn't been completely imagined yet, but mostly these concerns are already handled by the FreeNET-style redundancy and paypal-like, SSL transactions.  
+
+Oh, and the operating system will have a 3d visualization that will be out-of-this-world.  More than eye-candy, it represents the state-of-the-art in data science and representation.  CYBERSPACE:  the last frontier.  A full ontology of data and color scheme that matches it will be developed, so that all data can be tagged, uniformly and uniquely across the net.  No more private data, or domain-specific languages that encode the personality of the originator.  Everything has it's right place.  Think XML, but now the schema is based on real philosophy and epistemology, not ad hoc layers that never fit quite right.  In fact, if done right, there will be no need for books.  Books are disconnected data stores that are very much tied to the personality of the author in manh cases.  This project creates something like Hesse envisioned in the book Magister Ludi or the Glass Bead Game:  a storehouse for all human knowledge, kept intact by noble, data stewards, on behalf of all Mankind.
+
+Enjoy looking through the wiki.  It has a mix of both computer science, philosophy, and dream-building and join the project to help it evolve and become part of your own.
+
+Cheers,
+
+Mark
+Palo Alto, CA
+
+--- OLD README:
+
 This is a project for the OS and lanugage CONVERGENCE, where they figure out they're all trying to accomplish the same thing.  See also the googlegroup: programming-topics.  Turns out there's not that many significantly different ways to do that on a single-processor system.  So, we're going to optimize it and do it perfectly with a language we'll call Prime (even though it may start as Python or some such available language).
 
 It combines the best of programming languages (Python/Forth/C/C++/ASM and others), using new computer science to measure programming language efficiency to make the BEST computer language (given a few caveats).  It emerged out of the conflict between proprietary and free software over which is best and the Mage Wars of the 21st Century over political correctness.  We'll combine the best practices of each and add totally NEW computer science.  For example, there's no compiler.  Parametized object macros are built from a perfected computer language that turns into machine code when objects are first run.  OOP was the best architectural aid that CS had up to this point, but this project takes a systems-level approach and rearchitects the whole software environment, optimizing all OS-APP-HARDWARE questions so that every object is an app and every app is an object and all components are re-used and familiar to everyone.  
